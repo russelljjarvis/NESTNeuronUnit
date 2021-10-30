@@ -5,7 +5,4 @@ Run
 Code to make the NEST ADEXP single cell model optimizable via NeuronUnit and BluePyOpt.
 
 
-![Output should look like this](NU_TEST.png)
-<img src="NU_TEST.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+![Output should look like this](https://github.com/russelljjarvis/NESTNeuronUnit/blob/master/NU_NEST.png)
