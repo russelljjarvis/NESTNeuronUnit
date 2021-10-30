@@ -1,4 +1,6 @@
-Requirements: Install NEST-v3, python3.8, neo, sciunit and others.
+# About
+Code to make the NEST ADEXP single cell model optimizable via NeuronUnit and BluePyOpt.
+
 ## Install:
 ### To test interopability
 - Install NEST https://nest-simulator.readthedocs.io/en/stable/installation/linux_install.html
@@ -18,7 +20,6 @@ pip install git+https://github.com/russelljjarvis/neuronunit
 
 ### Run
 ```python test_interface.py```
-Code to make the NEST ADEXP single cell model optimizable via NeuronUnit and BluePyOpt.
 
 
 ![Output should look like this](https://github.com/russelljjarvis/NESTNeuronUnit/blob/master/NU_NEST.png)
