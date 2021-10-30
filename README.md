@@ -8,17 +8,8 @@ Code to make the NEST ADEXP single cell model optimizable via NeuronUnit and Blu
 ```
 pip install git+https://github.com/russelljjarvis/sciunit@dev
 ```
-### To Do a BPO data driven optimization on the reduced model via NU model scoring
-- Install BPO
-- Install sciunit
-- Install neuronunit
-```
-pip install git+https://github.com/russelljjarvis/sciunit@dev
-pip install git+https://github.com/russelljjarvis/BluePyOpt@neuronunit_reduced_cells
-pip install git+https://github.com/russelljjarvis/neuronunit
-```
 
-### Run
+### Preliminary Run
 ```python test_interface.py```
 
 
@@ -34,3 +25,13 @@ pip install git+https://github.com/russelljjarvis/neuronunit
 - [ ] score a NU test against NEST model
 - [ ] Run current search algorithm against NEST model
 - [ ] Optimize a NEST model
+
+### Future: to Do a BPO data driven optimization on the reduced model via NU model scoring
+- Install BPO
+- Install sciunit
+- Install neuronunit
+```
+pip install git+https://github.com/russelljjarvis/sciunit@dev
+pip install git+https://github.com/russelljjarvis/BluePyOpt@neuronunit_reduced_cells
+pip install git+https://github.com/russelljjarvis/neuronunit
+```
