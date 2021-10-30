@@ -1,11 +1,22 @@
 Requirements: Install NEST-v3, python3.8, neo, sciunit and others.
-### Install:
-*Install NEST
+## Install:
+### To test interopability
+-[] Install NEST
+-[] Install sciunit
+```
+pip install git+https://github.com/russelljjarvis/sciunit@dev
+```
+### To Do a BPO data driven optimization on the reduced model via NU model scoring
+-[] Install BPO
+-[] Install sciunit
+-[] Install neuronunit
 ```
 pip install git+https://github.com/russelljjarvis/sciunit@dev
 pip install git+https://github.com/russelljjarvis/BluePyOpt@neuronunit_reduced_cells
 pip install git+https://github.com/russelljjarvis/neuronunit
 ```
+
+### Fo
 ### Run
 ```python test_interface.py```
 Code to make the NEST ADEXP single cell model optimizable via NeuronUnit and BluePyOpt.
@@ -25,6 +36,6 @@ print(dir(model))
 - [x] set model parameters
 
 ## TODO
-- [ ] Add appropriate sciunit model capabilities
-- [ ] score a NU test.
-- [ ] Run current search algorithm
+- [ ] score a NU test against NEST model
+- [ ] Run current search algorithm against NEST model
+- [ ] Optimize a NEST model
