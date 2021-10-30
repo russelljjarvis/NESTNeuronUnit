@@ -1,15 +1,15 @@
 Requirements: Install NEST-v3, python3.8, neo, sciunit and others.
 ## Install:
 ### To test interopability
-- [] Install NEST
-- [] Install sciunit
+- Install ![NEST](https://nest-simulator.readthedocs.io/en/stable/installation/linux_install.html)
+- Install sciunit
 ```
 pip install git+https://github.com/russelljjarvis/sciunit@dev
 ```
 ### To Do a BPO data driven optimization on the reduced model via NU model scoring
-- [] Install BPO
-- [] Install sciunit
-- [] Install neuronunit
+- Install BPO
+- Install sciunit
+- Install neuronunit
 ```
 pip install git+https://github.com/russelljjarvis/sciunit@dev
 pip install git+https://github.com/russelljjarvis/BluePyOpt@neuronunit_reduced_cells
