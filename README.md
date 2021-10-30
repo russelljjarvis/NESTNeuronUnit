@@ -1,7 +1,7 @@
 Requirements: Install NEST-v3, python3.8, neo, sciunit and others.
 ## Install:
 ### To test interopability
-- Install https://nest-simulator.readthedocs.io/en/stable/installation/linux_install.html
+- Install NEST https://nest-simulator.readthedocs.io/en/stable/installation/linux_install.html
 - Install sciunit
 ```
 pip install git+https://github.com/russelljjarvis/sciunit@dev
