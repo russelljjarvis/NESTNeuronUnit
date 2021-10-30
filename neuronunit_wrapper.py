@@ -42,13 +42,15 @@ class NESTADEXP(RunnableModel):
                      sampling_period = self.nest.resolution * ms)
         self.vM = vm
         self.voltmeter = voltmeter
-    #def get_spike_count(self):
+    def get_spike_count(self):
+        pass
     #    spkcnt = len(self.voltmeter.get()["events"]["times"])
     #    print(self.voltmeter.get()["events"]["times"])
     #    return spkcnt
     def get_spike_train(self):
-        train = self.voltmeter.get()["events"]["times"]
-        return train
+        pass
+        #train = self.voltmeter.get()["events"]["times"]
+        #return train
 
 
     def get_membrane_potential(self):
@@ -67,4 +69,4 @@ model.inject_square_current(inject_param)
 vm = model.get_membrane_potential()
 plt.plot(vm.times,vm)
 plt.show()
-print(model.get_spike_count())
+#print(model.get_spike_count())
