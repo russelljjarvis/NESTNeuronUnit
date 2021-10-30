@@ -19,6 +19,6 @@ print(dir(model))
 - [x] set model parameters
 
 ## TODO
-- [ ] Add inject current capabilities
+- [ ] Add appropriate sciunit model capabilities
 - [ ] score a NU test.
 - [ ] Run current search algorithm
