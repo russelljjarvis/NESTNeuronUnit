@@ -1,5 +1,4 @@
 from nest_nu_backend import *
-
 model_params = {"V_peak": 20.0, "E_L": -60.0, "a": 80.0, "b": 80.5, "tau_w": 720.0}
 model = NESTADEXP(nest=nest, attrs=model_params)
 inject_param = {
@@ -12,4 +11,7 @@ inject_param = {
 model.inject_square_current(inject_param)
 vm = model.get_membrane_potential()
 plt.plot(vm.times, vm)
+plt.xlabel(pq.s)
+plt.ylabel(suite.traces["vm_soma"].dimensionality)
+plt.title("$V_{M}$ Allen Specimen id 325479788, sweep number 64")
 plt.show()
