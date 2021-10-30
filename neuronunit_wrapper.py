@@ -44,13 +44,8 @@ class NESTADEXP(RunnableModel):
         self.voltmeter = voltmeter
     def get_spike_count(self):
         pass
-    #    spkcnt = len(self.voltmeter.get()["events"]["times"])
-    #    print(self.voltmeter.get()["events"]["times"])
-    #    return spkcnt
     def get_spike_train(self):
         pass
-        #train = self.voltmeter.get()["events"]["times"]
-        #return train
 
 
     def get_membrane_potential(self):
