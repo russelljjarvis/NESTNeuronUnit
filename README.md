@@ -5,6 +5,7 @@ Code to make the NEST ADEXP single cell model optimizable via NeuronUnit and Blu
 ### To test interopability
 - Install NEST https://nest-simulator.readthedocs.io/en/stable/installation/linux_install.html
 - Install sciunit
+- Install Neo, quantities
 ```
 pip install git+https://github.com/russelljjarvis/sciunit@dev
 ```
