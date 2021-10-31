@@ -22,6 +22,7 @@ pip install git+https://github.com/russelljjarvis/sciunit@dev
 
 - [x] Some basic NEST/NU interoperability
 - [x] Inject current
+- [x] Get spike Count
 - [x] set model parameters
 - [x] RheobaseTest generate prediction, 
 - [x] SpikeCurrentSearch Generate Prediction.
