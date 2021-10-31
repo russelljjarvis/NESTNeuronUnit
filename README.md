@@ -12,6 +12,8 @@ pip install git+https://github.com/russelljjarvis/sciunit@dev
 
 ### Preliminary Run
 ```python test_interface.py```
+```python spike_current_search.py```
+
 
 
 ![Output should look like this](https://github.com/russelljjarvis/NESTNeuronUnit/blob/master/NUNEST.png)
