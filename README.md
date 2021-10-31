@@ -23,7 +23,8 @@ pip install git+https://github.com/russelljjarvis/sciunit@dev
 - [x] Some basic NEST/NU interoperability
 - [x] Inject current
 - [x] set model parameters
-- [x] RheobaseTest generate prediction, SpikeCurrentSearch Generate Prediction.
+- [x] RheobaseTest generate prediction, 
+- [x] SpikeCurrentSearch Generate Prediction.
 
 ## TODO
 - [ ] Find sensible NEST, Adexp parameter range.
