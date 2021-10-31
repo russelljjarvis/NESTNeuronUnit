@@ -1,15 +1,13 @@
+import nest
+nest.ResetKernel()
+nest.resolution = 0.1
+import nest.voltage_trace
+from sciunit.models import RunnableModel
 import matplotlib.pyplot as plt
 from neo import AnalogSignal
 import quantities as qt
 from quantities import mV, ms, s
 
-import nest
-
-nest.ResetKernel()
-nest.resolution = 0.1
-
-import nest.voltage_trace
-from sciunit.models import RunnableModel
 
 
 class NESTADEXP(RunnableModel):
