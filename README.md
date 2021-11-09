@@ -12,6 +12,8 @@ pip install git+https://github.com/russelljjarvis/sciunit@dev
 
 ### Preliminary Run
 ```python test_interface.py```
+```python spike_current_search.py```
+
 
 
 ![Output should look like this](https://github.com/russelljjarvis/NESTNeuronUnit/blob/master/NUNEST.png)
@@ -20,9 +22,13 @@ pip install git+https://github.com/russelljjarvis/sciunit@dev
 
 - [x] Some basic NEST/NU interoperability
 - [x] Inject current
+- [x] Get spike Count
 - [x] set model parameters
+- [x] RheobaseTest generate prediction, 
+- [x] SpikeCurrentSearch Generate Prediction.
 
 ## TODO
+- [ ] Find sensible NEST, Adexp parameter range.
 - [ ] score a NU test against NEST model
 - [ ] Run current search algorithm against NEST model
 - [ ] Optimize a NEST model
