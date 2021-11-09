@@ -11,7 +11,7 @@ try:
     import asciiplotlib as apl
 except:
     pass
-class NESTADEXP(RunnableModel):
+class NESTIZHI(RunnableModel):
     def set_attrs(self, attrs):
         self.model.set(
             V_m=attrs["V_m"],
@@ -73,15 +73,16 @@ class NESTADEXP(RunnableModel):
         vM = self.voltmeter.get()["events"]["V_m"]
         vm = AnalogSignal(vM, units=mV, sampling_period=self.nest.resolution * ms)
         self.vM = vm
-        #try:
-        #   fig = apl.figure()
-        #    fig.plot([float(t) for t in vm.times],[float(v) for v in vm], label="data", width=50, height=15)
-        #    fig.show()
-        #except:
-        #    pass
+        try:
+            fig = apl.figure()
+            fig.plot([float(t) for t in vm.times],[float(v) for v in vm], label="data", width=50, height=15)
+            fig.show()
+        except:
+            pass
         return self.vM
         
     def get_spike_count(self):
+        print(len(self.spikes))
         return len(self.spikes)
 
     def get_spike_train(self):
