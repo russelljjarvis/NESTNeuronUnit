@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+
 SILENT = True
 import warnings
 
@@ -8,8 +9,9 @@ from sciunit.scores import RelativeDifferenceScore
 import pandas as pd
 import pickle
 import quantities as pq
+
 specimen_id = 325479788
-model_type="ADEXP"
+model_type = "ADEXP"
 
 ##
 # call opt_setup

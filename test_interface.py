@@ -1,7 +1,9 @@
 import matplotlib
+
 matplotlib.use("agg")
 from nest_nu_backend import *
 import quantities as pq
+
 model_params = {"V_peak": 20.0, "E_L": -60.0, "a": 80.0, "b": 80.5, "tau_w": 720.0}
 model = NESTADEXP(nest=nest, attrs=model_params)
 inject_param = {
@@ -20,5 +22,4 @@ plt.show()
 plt.savefig("NUNEST.png")
 
 
-#from neuronunit.tests.target_spike_current import SpikeCountSearch
-
+# from neuronunit.tests.target_spike_current import SpikeCountSearch
